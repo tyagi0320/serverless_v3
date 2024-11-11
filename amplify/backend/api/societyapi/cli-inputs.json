@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "paths": {
+    "/notices": {
+      "name": "/notices",
+      "lambdaFunction": "noticeshandler",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "read"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "resourceName": "NoticesTable",
+  "tableName": "NoticesTable",
+  "partitionKey": {
+    "fieldName": "Field",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
